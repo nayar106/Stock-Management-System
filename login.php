@@ -15,7 +15,7 @@ header("location:home.php");
 }
 else
 {
-$error="<b style='color:red;font-size:16px;font-family:Javanese Text;'>Email or password is incorrect<b>";
+$error="<b style='color:red;font-size:16px;font-family:Javanese Text;margin-left:42%'>Email or password is incorrect<b>";
 header("location:index.php?err=$error");
 }
 ?>
